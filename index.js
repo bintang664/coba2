@@ -1,7 +1,7 @@
-const  XBOT = 'AMPIBI'; // Nama Bot Whatsapp
-const instagram = 'https://instagram.com/affis_saputro123'; // Nama Instagramlu cok
-const nomer = 'https://Wa.me/+6282334297175'; // Nomor whatsapplu cok
-const aktif = 'Tergantung kuota'; // Kapan bot lu aktif
+const  XBOT = 'BINTANG664'; // Nama Bot Whatsapp
+const instagram = 'https://instagram.com/bintang.775'; // Nama Instagramlu cok
+const nomer = 'https://Wa.me/+6281351845561'; // Nomor whatsapplu cok
+const aktif = 'Entahlah'; // Kapan bot lu aktif
 const groupwa = 'comming soon'; // OFFICIAL GRUP LU 1
 const youtube = 'https://youtube.com/channel/UCYKxsg7iF9a9IZyXQRNsvqw'; 
 const qrcode = require("qrcode-terminal");
@@ -21,9 +21,9 @@ const speed = require('performance-now');
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:affis\n' // full name
+            + 'FN:bintang\n' // full name
             + 'ORG:Owner  XBOT Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=6281351845561:+62 813-5184-5561\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 
 const
@@ -58,7 +58,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] XBOT Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] BINTANG664 Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
